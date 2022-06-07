@@ -216,6 +216,7 @@ header{
     .post{
         width: 100%;
         margin-left: 10%;
+        margin-right: 10%;
     }
 
     .pesquisar{
@@ -228,6 +229,14 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+}
+
+@media(max-width: 470px){
+    .post{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 

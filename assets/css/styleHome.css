@@ -185,8 +185,26 @@ header{
 }
 
 @media(max-width:1250px){
-    body{
-    width: 90%;
+    .profile{
+        display: none;
+    }
+
+    .post{
+        width: 100%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .pesquisar{
+        display: none;
+    }
+
+    .instagram-phone{
+        width: 30%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
